@@ -1,0 +1,61 @@
+body {
+  font-family: 'Roboto', sans-serif; /* Изменен шрифт */
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Темный фон для крипто-темы */
+  color: #e0e0e0; /* Светлый текст */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  text-align: center;
+  padding: 30px; /* Увеличил отступы */
+  background: #1e1e1e; /* Более темный контейнер */
+  border-radius: 12px; /* Более скругленные углы */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Более сильная тень */
+  transition: transform 0.2s; /* Анимация */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Эффект при наведении */
+}
+
+h1, p {
+    margin-bottom: 20px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 12px 0; /* Увеличен отступ между ссылками */
+}
+
+li a {
+  display: flex;
+  align-items: center;
+  padding: 14px; /* Увеличен паддинг */
+  background-color: #212121; /* Более темный цвет ссылок */
+  color: #bb86fc; /* Акцентный цвет ссылок */
+  text-decoration: none;
+  border-radius: 8px; /* Увеличен скругление углов */
+  transition: background-color 0.3s, color 0.3s; /* Плавный переход */
+}
+
+li a i {
+    margin-right: 10px;
+    font-size: 1.2em; /* Увеличен размер иконок */
+}
+
+
+li a:hover {
+  background-color: #2e2e2e;
+  color: #fff; /* Цвет текста при наведении */
+}
